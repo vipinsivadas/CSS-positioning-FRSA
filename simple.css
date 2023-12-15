@@ -1,0 +1,77 @@
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  background-color: rgb(241, 232, 232);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+ background-color: rgb(242, 77, 242);
+ padding:1.75rem 2rem;
+ position: fixed;
+right: 0;
+ left: 0;
+
+ z-index: 2;
+}
+
+
+nav ul{
+  list-style:disc;
+}
+
+section > div{
+  padding: 5rem 1rem;
+}
+
+section > div * {
+  display:inline-block;
+}
+nav{
+  background-color: rgb(229, 141, 171);
+  padding: 1.5 2rem;
+}
+
+nav ul li{
+  font-size: large;
+  font-weight: 800;
+  color: rgb(25, 15, 218);
+}
+
+.brand{
+  width: 30%;
+  text-align: center;
+  vertical-align: top;
+  position: sticky;
+  top: 110px;
+  color: rgb(18, 13, 13);
+}
+.brand > div > img{
+  position: absolute;
+  top: -30px;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+}
+.brand > div{
+  position: relative;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border: 3px solid coral;
+  background-color: rgb(255, 227, 19);
+}
+.content{
+  width: 60%;
+}
+.content p{
+  padding-block-end: 2rem;
+  color:rgb(140, 8, 211);
+  padding-top: 20px;
+
+}
